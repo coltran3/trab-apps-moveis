@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">aula1-mobile</string>
+    <string name="hello_world">opa</string>
+    <string name="action_settings">menu</string>
+</resources>
