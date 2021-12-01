@@ -24,11 +24,11 @@ private Button button = null;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText.setText(editText.getText().toString() +" vagabundo ");
+                editText.setText("olá " + editText.getText().toString());
                 Log.i("TAG", "Botao Clicado");
             }
         });
 
-        Log.i("Tag", "Candido vagabundo");
+        Log.i("Tag", "Candido");
     }
 }
