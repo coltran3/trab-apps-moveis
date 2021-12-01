@@ -1,0 +1,5 @@
+com/example/aula2mobile/BuildConfig.java
+ com.example.aula2mobile.BuildConfig
+com/example/aula2mobile/MainActivity.java
+ com.example.aula2mobile.MainActivity
+ com.example.aula2mobile.MainActivity$1

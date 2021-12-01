@@ -1,0 +1,4 @@
+com/example/aula4mobile/BuildConfig.java
+ com.example.aula4mobile.BuildConfig
+com/example/aula4mobile/MainActivity.java
+ com.example.aula4mobile.MainActivity

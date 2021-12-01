@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">aula4mobile</string>
+    <string name="app_name">Nivelamento 4</string>
+    <string name="oimundo">Olá mundo</string>
+    <string name="button_text">Trocar indioma</string>
+    <string name="mudado">Mudado</string>
 </resources>

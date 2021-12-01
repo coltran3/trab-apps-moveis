@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nivelamento 4</string>
+    <string name="button_text">Change language</string>
+    <string name="mudado">Changed</string>
+    <string name="oimundo">Hello world</string>
+</resources>
