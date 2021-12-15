@@ -20,7 +20,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements DialogCloseListener {
-
     private RecyclerView tasksRecyclerView;
     private ToDoAdapter tasksAdapter;
     private FloatingActionButton fab;
@@ -36,11 +35,10 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
-        // Database
+
         db = new DatabaseHandler(this);
         db.openDatabase();
 
-        // Firebase
         FirebaseApp.initializeApp(MainActivity.this);
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(MainActivity.this);
 
@@ -61,6 +59,8 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
             public void onClick(View v) {
                 AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG);
                 Bundle eventBundle = new Bundle();
+                eventBundle.putString(FirebaseAnalytics.Param.ITEM_ID, "teste_id");
+                eventBundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "teste_name");
                 mFirebaseAnalytics.logEvent("add_task", eventBundle);
             }
         });
