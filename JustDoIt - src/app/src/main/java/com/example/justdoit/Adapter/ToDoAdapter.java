@@ -1,5 +1,6 @@
 package com.example.justdoit.Adapter;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -57,6 +58,10 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
 
     private boolean toBoolean(int n) {
         return n!=0;
+    }
+
+    public Context getContext() {
+        return activity;
     }
 
     public void setTasks(List<ToDoModel> todoList ) {

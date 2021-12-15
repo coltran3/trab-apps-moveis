@@ -3,4 +3,7 @@
     <string name="app_name">Just Do It</string>
     <string name="hint">New Task</string>
     <string name="save">Save</string>
+    <string name="deleteTask">Delete Task</string>
+    <string name="areYouSureDelete">Are you sure you want to delete this Task ?</string>
+    <string name="confirm">"Confirm"</string>
 </resources>
