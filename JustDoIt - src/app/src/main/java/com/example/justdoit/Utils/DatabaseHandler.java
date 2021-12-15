@@ -40,7 +40,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public void openDataBase() {
+    public void openDatabase() {
         db = this.getWritableDatabase();
     }
 
