@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "942598517741",
+    "project_id": "trabalho-de-apps-moveis",
+    "storage_bucket": "trabalho-de-apps-moveis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942598517741:android:5590cbd824224872adade4",
+        "android_client_info": {
+          "package_name": "com.example.justdoit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942598517741-jv8fbvj3l585oid9hua4djupd6h3m9e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOi9M6iHzx6j4b7rVBaxCT2ULNydoYXgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942598517741-jv8fbvj3l585oid9hua4djupd6h3m9e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
