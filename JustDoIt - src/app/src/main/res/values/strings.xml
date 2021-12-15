@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Just Do It</string>
+    <string name="app_name">Apenas Faça</string>
+    <string name="hint">Nova tarefa</string>
+    <string name="save">Salvar</string>
 </resources>
